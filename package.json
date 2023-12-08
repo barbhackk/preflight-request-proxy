@@ -1,0 +1,33 @@
+{
+  "name": "preflight-request-proxy",
+  "version": "1.0.0",
+  "description": "Reverse proxy for CORS pre-flight request",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/barbhackk/preflight-request-proxy.git"
+  },
+  "keywords": [
+    "reverse",
+    "proxy",
+    "preflight",
+    "cors"
+  ],
+  "author": "Sébastien Doutre",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/barbhackk/preflight-request-proxy/issues"
+  },
+  "homepage": "https://github.com/barbhackk/preflight-request-proxy#readme",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "command-line-args": "^5.2.1",
+    "command-line-usage": "^7.0.1",
+    "http-proxy": "^1.18.1"
+  },
+  "type": "module"
+}
